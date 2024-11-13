@@ -46,7 +46,7 @@ python main.py add-todo --name "Sell Ipad" --desc "Have to sell my iPad for a ne
 python main.py add-todo --name "Hospital" --desc "Going to see the doctor for my surgery" h
 ```
 
-#### Note:The priority options are
+#### Note: The priority options are
 
 - `h` for high priority
 - `m` for medium priority
@@ -103,4 +103,8 @@ python main.py delete_todo 3
 
 This application uses the following Python library:
 
-1. love
+- `click`: For building the command-line interface
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
