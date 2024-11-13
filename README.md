@@ -77,4 +77,5 @@ python main.py delete_todo 3
 ## Dependencies
 
 This application uses the following Python library:
+
 ````
