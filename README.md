@@ -36,16 +36,20 @@ To add a new to-do, use the add-todo command. You can optionally specify a descr
 To list all to-dos, use the `list-todos` command. You can filter the list based on priority: 
 
  List all to-dos --
-`python main.py list-todos` -- List all todolist
+
+`python main.py list-todos`
 
  List medium priority to-dos --
+
 `python main.py list-todos -p m` 
 
 List high priority to-dos --
-`python main.py list-todos -p h` -- high priority todolist
+
+`python main.py list-todos -p h`
 
 List crucial priority to-dos --
-`python main.py list-todos -p c` -- crucial priority todolist
+
+`python main.py list-todos -p c`
 
 
 ## Delete a To-Do
@@ -55,7 +59,7 @@ Delete the to-do at index 3 --
 `python main.py delete_todo 3` 
 
 ## Command Summary
-|## Command   |       Description            |
+|   Command   |       Description            |
 | ------------| ---------------------------- |
 | `add-todo`  | Add a new to-do to the list |
 | `list-todos`| List all to-dos or filter by priority
