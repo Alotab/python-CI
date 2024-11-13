@@ -1,7 +1,6 @@
 New Milk: Milk for my kids [Priority: Medium]
 python lec: Have to learn python programming [Priority: Medium]
 Phone: "Have to repaire my broken phone" [Priority: Medium]
-Hospital: Going to see the doctor for my surgery [Priority: Medium]
 Hospital: Going to see the doctor for my surgery [Priority: High]
 Algebra: Exams on Monday [Priority: Crucial]
 Cook: Prepare Indian food [Priority: Optional]

@@ -87,7 +87,7 @@ To delete a to-do, use the delete-todo command, followed by the index of the to-
 Delete the to-do at index 3:
 
 ```
-python main.py delete_todo 3
+python main.py delete-todo 3
 ```
 
 ## Command Summary
