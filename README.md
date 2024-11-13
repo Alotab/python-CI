@@ -46,11 +46,11 @@ python main.py add-todo --name "Sell Ipad" --desc "Have to sell my iPad for a ne
 python main.py add-todo --name "Hospital" --desc "Going to see the doctor for my surgery" h
 ```
 
-## Note ##:The priority options are
+### Note:The priority options are
 
-"_" `h` for high priority
-"_" `m` for medium priority
-"\*" `c` for crucial priority
+- `h` for high priority
+- `m` for medium priority
+- `c` for crucial priority
 
 ## List All To-Dos:
 
