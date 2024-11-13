@@ -25,37 +25,45 @@ This is a custom, professional command-line To-Do List application built with Py
 
 To add a new to-do, use the add-todo command. You can optionally specify a description and priority
 
-`python main.py add-todo`
+```
+python main.py add-todo
+```
 
-`python main.py add-todo --name "Repaire Phone"`
+```
+python main.py add-todo --name "Repaire Phone"
+```
 
-`python main.py add-todo --name "Sell Ipad" --desc "Have to sell my iPad for a new one"`
+```
+python main.py add-todo --name "Sell Ipad" --desc "Have to sell my iPad for a new one"
+```
 
-`python main.py add-todo --name "Hospital" --desc "Going to see the doctor for my surgery" h` -- h for high priority.
+```
+python main.py add-todo --name "Hospital" --desc "Going to see the doctor for my surgery" h
+```
 
 ## List All To-Dos:
 
 To list all to-dos, use the `list-todos` command. You can filter the list based on priority:
 
-List all to-dos --
+List all to-dos:
 
 ```
 python main.py list-todos
 ```
 
-List medium priority to-dos --
+List medium priority to-dos:
 
 ```
 python main.py list-todos -p m
 ```
 
-List high priority to-dos --
+List high priority to-dos:
 
 ```
 python main.py list-todos -p h
 ```
 
-List crucial priority to-dos --
+List crucial priority to-dos:
 
 ```
 python main.py list-todos -p c
@@ -65,7 +73,7 @@ python main.py list-todos -p c
 
 To delete a to-do, use the delete-todo command, followed by the index of the to-do you want to delete:
 
-Delete the to-do at index 3 --
+Delete the to-do at index 3:
 
 ```
 python main.py delete_todo 3
