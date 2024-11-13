@@ -39,19 +39,27 @@ To list all to-dos, use the `list-todos` command. You can filter the list based 
 
 List all to-dos --
 
-`python main.py list-todos`
+```
+python main.py list-todos
+```
 
 List medium priority to-dos --
 
-`python main.py list-todos -p m`
+```
+python main.py list-todos -p m
+```
 
 List high priority to-dos --
 
-`python main.py list-todos -p h`
+```
+python main.py list-todos -p h
+```
 
 List crucial priority to-dos --
 
-`python main.py list-todos -p c`
+```
+python main.py list-todos -p c
+```
 
 ## Delete a To-Do
 
@@ -60,9 +68,7 @@ To delete a to-do, use the delete-todo command, followed by the index of the to-
 Delete the to-do at index 3 --
 
 ```
-
 python main.py delete_todo 3
-
 ```
 
 ## Command Summary
