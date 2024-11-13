@@ -58,7 +58,12 @@ List crucial priority to-dos --
 To delete a to-do, use the delete-todo command, followed by the index of the to-do you want to delete:
 
 Delete the to-do at index 3 --
-`python main.py delete_todo 3`
+
+````
+
+python main.py delete_todo 3
+
+```
 
 ## Command Summary
 
@@ -72,3 +77,4 @@ Delete the to-do at index 3 --
 ## Dependencies
 
 This application uses the following Python library:
+````
