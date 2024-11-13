@@ -13,13 +13,18 @@ This is a custom, professional command-line To-Do List application built with Py
 
 1. Clone or download the repository.
 2. Install the required dependencies via pip:
-   `pip install click`
+
+```
+pip install click
+```
 
 # Usage
 
 ## List All Commands
 
-`python main.py --help`
+```
+python main.py --help
+```
 
 ## Add a New To-Do:
 
