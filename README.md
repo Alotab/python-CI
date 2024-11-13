@@ -1,12 +1,27 @@
-# python-CI
+# TodoList CLI Application
 
-This is custome professional command line python application using `click` lib in python
+This is a custom, professional command-line To-Do List application built with Python using the `click` library. The application allows users to manage their to-dos through a set of simple commands, all of which interact with a `todolist.txt` file for data storage.
 
-## List all the commands:
+## Features
+* Add a new to-do with a name, description, and priority.
+* List all to-dos with different priority filters (high, medium, crucial).
+* Delete a to-do by its index in the list.
+* Built using the powerful and easy-to-use `click` Python library for CLI interfaces.
+
+## Installation
+1. Clone or download the repository.
+2. Install the required dependencies via pip: 
+    `pip install click`
+
+
+# Usage
+
+## List All Commands
 
 `python main.py --help`
 
-## How to add a new -- todoList:
+## Add a New To-Do:
+To add a new to-do, use the add-todo command. You can optionally specify a description and priority
 
 `python main.py add-todo`
 
@@ -16,16 +31,31 @@ This is custome professional command line python application using `click` lib i
 
 `python main.py add-todo --name "Hospital" --desc "Going to see the doctor for my surgery" h` -- h for high priority.
 
-## List all the todoList commands:
 
+## List All To-Dos:
+To list all to-dos, use the `list-todos` command. You can filter the list based on priority: 
+
+ List all to-dos --
 `python main.py list-todos` -- List all todolist
 
-`python main.py list-todos -p m` -- medium priority todolist
+ List medium priority to-dos --
+`python main.py list-todos -p m` 
 
+List high priority to-dos --
 `python main.py list-todos -p h` -- high priority todolist
 
+List crucial priority to-dos --
 `python main.py list-todos -p c` -- crucial priority todolist
 
-## Delete todo
 
-`python main.py delete_todo 3` -- delete todo with an index 3
+## Delete a To-Do
+To delete a to-do, use the delete-todo command, followed by the index of the to-do you want to delete:
+
+Delete the to-do at index 3 --
+`python main.py delete_todo 3` 
+
+## Command Summary
+|## Command   |       Description            |
+| ------------| ---------------------------- |
+| `add-todo`  | Add a new to-do to the list |
+| `list-todos`| List all to-dos or filter by priority
